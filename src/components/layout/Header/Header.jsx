@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
-import "../../App.css";
 import { useState } from "react";
 import { Fragment } from "react";
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import "./Header.css";
+import "../../../App.css";
 
 function Header({ currentPage }) {
   if (!currentPage) {
@@ -50,27 +52,47 @@ function Header({ currentPage }) {
   const socialLinks = (
     <ul className="social-links">
       <li>
-        <a>
+        <a
+          href="https://www.linkedin.com/in/subhadeepmandal2000/"
+          rel="noreferrer"
+          target="_blank"
+          id="linkedin"
+        >
           <img src="src/assets/linkedin.svg" className="social-icon"></img>{" "}
         </a>
       </li>
       <li>
-        <a>
+        <a
+          href="https://github.com/Subhadeep0506"
+          rel="noreferrer"
+          target="_blank"
+          id="github"
+        >
           <img src="src/assets/github.svg" className="social-icon"></img>{" "}
         </a>
       </li>
       <li>
-        <a>
+        <a
+          href="https://twitter.com/syntax_terror_"
+          rel="noreferrer"
+          target="_blank"
+          id="twitter"
+        >
           <img src="src/assets/twitter.svg" className="social-icon"></img>{" "}
         </a>
       </li>
       <li>
-        <a>
+        <a
+          href="https://www.instagram.com/s.u.b.h.a.d.e.e.p__"
+          rel="noreferrer"
+          target="_blank"
+          id="instagram"
+        >
           <img src="src/assets/instagram.svg" className="social-icon"></img>{" "}
         </a>
       </li>
       <li>
-        <a onClick={() => setDarkTheme(!darkTheme)}>
+        <a onClick={() => setDarkTheme(!darkTheme)} id="theme-button">
           {darkTheme ? (
             <img src="src/assets/light.svg" className="social-icon"></img>
           ) : (
@@ -87,6 +109,11 @@ function Header({ currentPage }) {
         <Fragment>{naviationLinks}</Fragment>
         <Fragment>{socialLinks}</Fragment>
       </Fragment>
+      <ReactTooltip
+        data-tooltip-id="theme-button"
+        place="bottom"
+        data-tooltip-content="Dark"
+      />
     </nav>
   );
 }
