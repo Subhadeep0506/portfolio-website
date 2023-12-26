@@ -5,11 +5,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #45454f;
 }
 
 :root {
   font-family: "DM Sans";
-  width: 50%;
+  width: 100%;
   --primary-color: #3483eb;
   --dark-color: #2e3440;
   --light-color: #f4f4f4;
@@ -26,9 +27,12 @@ ul {
   list-style: none;
 }
 
+.app-body {
+  margin-top: 150px;
+}
+
 /* Mobile Styles */
 @media (max-width: 700px) {
-
   /* Navbar */
   .navbar {
     display: block;

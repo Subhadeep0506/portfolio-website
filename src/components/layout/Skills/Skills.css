@@ -1,0 +1,17 @@
+.skills {
+  margin: 150px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills .marquee {
+  background: #3b3b3b9e;
+  max-height: 100px;
+  box-shadow: 0px 6px 27px 2px rgba(0,0,0,0.6);
+}
+
+.skill-icons {
+  height: 90px;
+  padding: 20px;
+}

@@ -104,7 +104,7 @@ function Header({ currentPage }) {
   );
   return (
     <nav className="navbar bg-dark navbar-expand-md">
-      <h1 className="rainbow_text_animated">Subhadeep Mandal</h1>
+      <h1 className="rainbow_text_animated">Subhadeep M.</h1>
       <Fragment>
         <Fragment>{naviationLinks}</Fragment>
         <Fragment>{socialLinks}</Fragment>
