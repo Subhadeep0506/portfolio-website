@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
 import { Fragment } from "react";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import "./Header.css";
@@ -10,7 +9,6 @@ function Header({ currentPage }) {
     currentPage = "home";
   }
 
-  const [darkTheme, setDarkTheme] = useState(true);
   const naviationLinks = (
     <ul className="nav-links">
       <li>
@@ -92,13 +90,7 @@ function Header({ currentPage }) {
         </a>
       </li>
       <li>
-        <a onClick={() => setDarkTheme(!darkTheme)} id="theme-button">
-          {darkTheme ? (
-            <img src="src/assets/light.svg" className="social-icon"></img>
-          ) : (
-            <img src="src/assets/dark.svg" className="social-icon"></img>
-          )}
-        </a>
+        <button className="resume">Résumé</button>
       </li>
     </ul>
   );

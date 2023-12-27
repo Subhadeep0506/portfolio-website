@@ -1,7 +1,7 @@
 .profile {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border-radius: 36px;
   width: 80%;
   background-image: linear-gradient(
@@ -14,6 +14,7 @@
   padding: 20px;
   min-height: 500px;
   transition: 200ms linear;
+  backdrop-filter: blur(8px);
 }
 
 .profile:hover {
@@ -23,9 +24,21 @@
 }
 
 .profile .avatar-title {
+  padding: 12px 12px;
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  outline: 1px rgba(255, 255, 255, 0.4) solid;
+}
+
+.avatar-title-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 36px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: 1px rgba(255, 255, 255, 0.4) solid;
 }
 
 .avatar-title h1 img {
@@ -47,6 +60,13 @@
   border-bottom-left-radius: 20px;
   margin: 20px;
   transition: 0.2s ease-in-out;
+}
+
+.arrow {
+  /* filter: invert(1);
+  -webkit-filter: invert(1); */
+  height: 180px;
+  transform: rotate(15deg);
 }
 
 /* @keyframes rotating {

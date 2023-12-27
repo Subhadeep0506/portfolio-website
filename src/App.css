@@ -5,7 +5,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #45454f;
+  color: #ffffff;
+  font-family: "DM Sans";
 }
 
 :root {
@@ -16,6 +17,24 @@
   --light-color: #f4f4f4;
   --danger-color: #ffaba1;
   --success-color: #93ff89;
+}
+
+::-webkit-scrollbar {
+  background-color: #2d84fd00;
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #57575700;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #64a5ff;
+}
+
+body {
+  background-image: url("src/assets/images/13264392_5182880.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 a {

@@ -19,8 +19,6 @@ function Skills() {
         <img src="src/assets/skills/css.svg" className="skill-icons" />
         <img src="src/assets/skills/javascript.svg" className="skill-icons" />
         <img src="src/assets/skills/react.svg" className="skill-icons" />
-        <img src="src/assets/skills/flutter.svg" className="skill-icons" />
-        <img src="src/assets/skills/dart.svg" className="skill-icons" />
         <img src="src/assets/skills/git.svg" className="skill-icons" />
         <img src="src/assets/skills/github.svg" className="skill-icons" />
         <img src="src/assets/skills/gcp.svg" className="skill-icons" />
