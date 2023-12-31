@@ -65,7 +65,7 @@
 .arrow {
   /* filter: invert(1);
   -webkit-filter: invert(1); */
-  height: 180px;
+  height: 100px;
   transform: rotate(15deg);
 }
 

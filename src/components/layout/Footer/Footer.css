@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  background: transparent;
+  backdrop-filter: blur(8px);
+  outline: 1px rgba(255, 255, 255, 0.2) solid;
+}
+
+.footer h1 {
+  font-family: "Rubik Doodle Shadow";
+}
+
+.footer .social-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer .social-icon {
+  border: none;
+  padding: 10px 20px;
+}
+
+.social-links li:hover {
+  --angle: 0deg;
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 80ms transform linear;
+}
