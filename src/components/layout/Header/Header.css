@@ -1,4 +1,4 @@
-.navbar {
+.navbar-custom {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -13,18 +13,18 @@
   border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
 }
 
-.navbar h1 {
+.navbar-custom h1 {
   /* font-family: "DM Sans"; */
   font-size: 30px;
   font-family: "Rubik Doodle Shadow";
 }
 
-.navbar ul {
+.navbar-custom ul {
   display: flex;
   align-items: center;
 }
 
-.navbar a {
+.navbar-custom a {
   color: #c6c6c6;
   padding: 0.45rem;
   display: flex;
@@ -35,19 +35,19 @@
   transition: border-image 100ms linear;
 }
 
-.navbar a img {
+.navbar-custom a img {
   height: 24px;
   width: 24px;
   padding-right: 3px;
 }
 
-.navbar .social-icon {
+.navbar-custom .social-icon {
   height: 28px;
   width: 28px;
   border: none;
 }
 
-.navbar .nav-links a:hover {
+.navbar-custom .nav-links a:hover {
   --angle: 0deg;
   color: #ffffff;
   cursor: pointer;
@@ -79,7 +79,7 @@
   inherits: false;
 }
 
-.navbar .social-links a:hover {
+.navbar-custom .social-links a:hover {
   --angle: 0deg;
   color: #000000;
   transition: color 0.2s ease-in-out;
@@ -93,7 +93,7 @@
   transition: 80ms transform linear;
 }
 
-.navbar .welcome span {
+.navbar-custom .welcome span {
   margin-right: 0.6rem;
 }
 
