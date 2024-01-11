@@ -2,76 +2,67 @@ import PropTypes from "prop-types";
 import "./Header.css";
 import "../../../App.css";
 
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Offcanvas from "react-bootstrap/Offcanvas";
+
 function Header({ currentPage }) {
   if (!currentPage) {
     currentPage = "home";
   }
-
+  const expand = "xl";
   return (
-    <nav className="navbar bg-dark navbar-expand-md navbar-dark navbar-custom">
-      <h1 className="rainbow_text_animated">Subhadeep M.</h1>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul className="navbar-nav nav-links">
-          <li className="nav-item">
-            <a className="nav-link">
-              {/* <i className="bi bi-house-fill"></i> Home */}
-              <img src="src/assets/home.svg" className="link-icon"></img> Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link">
-              {/* <i className="bi bi-book-fill"></i> Education */}
-              <img
-                src="src/assets/education.svg"
-                className="link-icon"
-              ></img>{" "}
-              Education
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link">
-              {/* <i className="bi bi-briefcase-fill"></i> Experience */}
-              <img
-                src="src/assets/experience.svg"
-                className="link-icon"
-              ></img>{" "}
-              Experience
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link">
-              {/* <i className="bi bi-clipboard-data-fill"></i> Projects */}
-              <img
-                src="src/assets/projects.svg"
-                className="link-icon"
-              ></img>{" "}
-              Projects
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link">
-              {/* <i className="bi bi-envelope-fill"></i> Contact */}
-              <img
-                src="src/assets/contact.svg"
-                className="link-icon"
-              ></img>{" "}
-              Contact
-            </a>
-          </li>
-          <li className="nav-item">
-            <button className="resume">Résumé</button>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar key={expand} expand={expand} className="navbar-custom">
+      <Container fluid>
+        <Navbar.Brand className="rainbow_text_animated" href="/">
+          <h1>Subhadeep M.</h1>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}>
+          <img className="collapse-icon" src="src/assets/collapse.svg" />
+        </Navbar.Toggle>
+        <Navbar.Offcanvas
+          id={`offcanvasNavbar-expand-${expand}`}
+          aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+          placement="end"
+          className="navbar-offcanvas"
+        >
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+              <h1 className="rainbow_text_animated">Subhadeep M.</h1>
+            </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <Nav className="justify-content-end flex-grow-1 pe-3">
+              <Nav.Link href="/">
+                <img src="src/assets/home.svg" className="link-icon"></img> Home
+              </Nav.Link>
+              <Nav.Link href="">
+                <img src="src/assets/education.svg" className="link-icon"></img>{" "}
+                Education
+              </Nav.Link>
+
+              <Nav.Link>
+                <img
+                  src="src/assets/experience.svg"
+                  className="link-icon"
+                ></img>{" "}
+                Experience
+              </Nav.Link>
+              <Nav.Link>
+                <img src="src/assets/projects.svg" className="link-icon"></img>{" "}
+                Projects
+              </Nav.Link>
+              <Nav.Link>
+                <img src="src/assets/contact.svg" className="link-icon"></img>{" "}
+                Contact
+              </Nav.Link>
+              <button className="resume">Résumé</button>
+            </Nav>
+          </Offcanvas.Body>
+        </Navbar.Offcanvas>
+      </Container>
+    </Navbar>
   );
 }
 
@@ -80,3 +71,31 @@ Header.propTypes = {
 };
 
 export default Header;
+
+/**
+ * <Nav className="">
+            <Nav.Link href="/">
+              <img src="src/assets/home.svg" className="link-icon"></img> Home
+            </Nav.Link>
+            <Nav.Link href="">
+              <img src="src/assets/education.svg" className="link-icon"></img>{" "}
+              Education
+            </Nav.Link>
+
+            <Nav.Link>
+              <img src="src/assets/experience.svg" className="link-icon"></img>{" "}
+              Experience
+            </Nav.Link>
+            <Nav.Link>
+              <img src="src/assets/projects.svg" className="link-icon"></img>{" "}
+              Projects
+            </Nav.Link>
+            <Nav.Link>
+              <img src="src/assets/contact.svg" className="link-icon"></img>{" "}
+              Contact
+            </Nav.Link>
+            <Nav.Link>
+              <button className="resume">Résumé</button>
+            </Nav.Link>
+          </Nav>
+ */

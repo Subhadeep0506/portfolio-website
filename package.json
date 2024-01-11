@@ -17,6 +17,7 @@
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.2",
+    "react-parallax-tilt": "^1.7.182",
     "react-proptypes": "^1.0.0",
     "react-tooltip": "^5.25.0"
   },
