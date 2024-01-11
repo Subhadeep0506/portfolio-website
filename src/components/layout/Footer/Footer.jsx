@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <h1>Subhadeep M.</h1>
       <SocialLinks className="social-links" />
-      <p>&copy; 2024 Subhadeep Mandal</p>
+      <p>&copy; Subhadeep Mandal 2024</p>
     </footer>
   );
 }
