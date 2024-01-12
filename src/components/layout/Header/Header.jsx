@@ -37,7 +37,7 @@ function Header({ currentPage }) {
               <Nav.Link href="/">
                 <img src="src/assets/home.svg" className="link-icon"></img> Home
               </Nav.Link>
-              <Nav.Link href="">
+              <Nav.Link href="#education">
                 <img src="src/assets/education.svg" className="link-icon"></img>{" "}
                 Education
               </Nav.Link>

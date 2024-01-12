@@ -1,0 +1,29 @@
+[
+  {
+    "school": "Haldia Institute of Technology",
+    "degree": "Bachelor of Technology, Computer Science [MAKAUT]",
+    "from": "July 2019",
+    "to": "June 2023",
+    "location": "Haldia, West Bengal",
+    "grade": "9.15 CGPA",
+    "category": "university"
+  },
+  {
+    "school": "Sri Chaitanya Educational Institution, Steel Plant Campus",
+    "degree": "Higher Secondary Education [BIEAP]",
+    "from": "June 2017",
+    "to": "May 2019",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "grade": "8.23 CGPA",
+    "category": "school"
+  },
+  {
+    "school": "De Paul School, Visakhapatnam",
+    "degree": "Secondary Education [CISCE]",
+    "from": "June 2013",
+    "to": "May 2017",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "grade": "91.8%",
+    "category": "school"
+  }
+]

@@ -6,17 +6,12 @@ function Profile() {
     <>
       <div className="profile">
         <Tilt
-          // className="parallax-effect-glare-scale"
-          // perspective={500}
-          // glareEnable={true}
-          // glareMaxOpacity={0.45}
-          // scale={1.02}
           className="parallax-effect-img"
-          tiltMaxAngleX={40}
-          tiltMaxAngleY={40}
-          perspective={800}
-          transitionSpeed={1500}
-          scale={1.1}
+          tiltMaxAngleX={10}
+          tiltMaxAngleY={10}
+          perspective={1000}
+          transitionSpeed={1000}
+          scale={1.05}
           gyroscope={true}
         >
           <div className="avatar">
@@ -27,13 +22,15 @@ function Profile() {
           <div className="avatar-title-content">
             <h1 style={{ color: "#FF9843" }}>
               Hi <img src="src/assets/hello.gif"></img>, I am{" "}
-              <span style={{ color: "#7ED7C1", marginLeft: "6px"}}>Subhadeep</span>
+              <span style={{ color: "#7ED7C1", marginLeft: "6px" }}>
+                Subhadeep
+              </span>
             </h1>
             <h1 style={{ color: "#FF9843" }}>Mandal</h1>
             <br />
-            <h2 style={{ color: "#A1EEBD" }}>Data Science</h2>
-            <h2 style={{ color: "#F6F7C4" }}>AI/ML</h2>
-            <h2 style={{ color: "#F6D6D6" }}>Softwere Development</h2>
+            <h2 style={{ color: "#A1EEBD" }}><img style={{height: "32px"}} src="src/assets/data-science.svg"/>Data Science</h2>
+            <h2 style={{ color: "#F6F7C4" }}><img style={{height: "32px"}} src="src/assets/ai.svg"/>AI/ML</h2>
+            <h2 style={{ color: "#F6D6D6" }}><img style={{height: "32px"}} src="src/assets/development.svg"/>Softwere Development</h2>
             <br />
             <h3 style={{ color: "#FF8080" }}>
               <img src="src/assets/location.svg"></img> Bangalore, India

@@ -51,18 +51,13 @@
   font-size: 28px;
 }
 
-.avatar img {
+.avatar img{
   object-fit: cover;
   height: 400px;
   width: 400px;
   border-radius: 200px;
   margin: 20px;
   transition: 0.2s ease-in-out;
-}
-
-.arrow {
-  height: 100px;
-  transform: rotate(15deg);
 }
 
 .avatar img:hover {
@@ -82,7 +77,7 @@
     height: 60vw;
     width: 60vw;
   }
-  
+
   .avatar-title h1 img {
     height: 6vw;
     width: 6vw;
@@ -91,13 +86,13 @@
     font-size: 6vw;
   }
 
-  .avatar-title h3, h2 {
+  .avatar-title h3,
+  h2 {
     font-size: 6vw;
   }
-
 }
 
-@media screen and (max-width: 1160px) and (min-width: 768px) {
+@media screen and (max-width: 1160px) and (min-width: 770px) {
   .profile {
     margin: 0 40px;
   }
@@ -110,7 +105,8 @@
     font-size: 3vw;
   }
 
-  .avatar-title h3, h2 {
+  .avatar-title h3,
+  h2 {
     font-size: 3vw;
   }
 

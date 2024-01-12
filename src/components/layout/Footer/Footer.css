@@ -22,6 +22,10 @@
   padding: 10px 20px;
 }
 
+.social-links li {
+  transition: 80ms linear;
+}
+
 .social-links li:hover {
   --angle: 0deg;
   cursor: pointer;
@@ -30,5 +34,4 @@
   -ms-transform: scale(1.5);
   -o-transform: scale(1.5);
   transform: scale(1.5);
-  transition: 80ms transform linear;
 }
