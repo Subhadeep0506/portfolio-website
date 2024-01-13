@@ -7,6 +7,12 @@ export default defineConfig({
   esbuild: {
     loader: "jsx",
   },
+  resolve: {
+    alias: {
+      src: "/src",
+      assets: "/src/assets",
+    },
+  },
   optimizeDeps: {
     esbuildOptions: {
       loader: {
