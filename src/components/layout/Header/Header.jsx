@@ -19,7 +19,7 @@ function Header({ currentPage }) {
           <h1>Subhadeep M.</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}>
-          <img className="collapse-icon" src="src/assets/collapse.svg" />
+          <img className="collapse-icon" src="src/assets/images/collapse.svg" />
         </Navbar.Toggle>
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
@@ -35,26 +35,26 @@ function Header({ currentPage }) {
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link href="/">
-                <img src="src/assets/home.svg" className="link-icon"></img> Home
+                <img src="src/assets/images/home.svg" className="link-icon"></img> Home
               </Nav.Link>
               <Nav.Link href="#education">
-                <img src="src/assets/education.svg" className="link-icon"></img>{" "}
+                <img src="src/assets/images/education.svg" className="link-icon"></img>{" "}
                 Education
               </Nav.Link>
 
               <Nav.Link>
                 <img
-                  src="src/assets/experience.svg"
+                  src="src/assets/images/experience.svg"
                   className="link-icon"
                 ></img>{" "}
                 Experience
               </Nav.Link>
               <Nav.Link>
-                <img src="src/assets/projects.svg" className="link-icon"></img>{" "}
+                <img src="src/assets/images/projects.svg" className="link-icon"></img>{" "}
                 Projects
               </Nav.Link>
               <Nav.Link>
-                <img src="src/assets/contact.svg" className="link-icon"></img>{" "}
+                <img src="src/assets/images/contact.svg" className="link-icon"></img>{" "}
                 Contact
               </Nav.Link>
               <Nav.Link className="resume">
@@ -77,23 +77,23 @@ export default Header;
 /**
  * <Nav className="">
             <Nav.Link href="/">
-              <img src="src/assets/home.svg" className="link-icon"></img> Home
+              <img src="src/assets/images/home.svg" className="link-icon"></img> Home
             </Nav.Link>
             <Nav.Link href="">
-              <img src="src/assets/education.svg" className="link-icon"></img>{" "}
+              <img src="src/assets/images/education.svg" className="link-icon"></img>{" "}
               Education
             </Nav.Link>
 
             <Nav.Link>
-              <img src="src/assets/experience.svg" className="link-icon"></img>{" "}
+              <img src="src/assets/images/experience.svg" className="link-icon"></img>{" "}
               Experience
             </Nav.Link>
             <Nav.Link>
-              <img src="src/assets/projects.svg" className="link-icon"></img>{" "}
+              <img src="src/assets/images/projects.svg" className="link-icon"></img>{" "}
               Projects
             </Nav.Link>
             <Nav.Link>
-              <img src="src/assets/contact.svg" className="link-icon"></img>{" "}
+              <img src="src/assets/images/contact.svg" className="link-icon"></img>{" "}
               Contact
             </Nav.Link>
             <Nav.Link>

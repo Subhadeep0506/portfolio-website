@@ -9,23 +9,23 @@ const EducationTimelineItem = ({ data }) => {
       <div className="timeline-item-content">
         <div className="tag">
           {data.category === "school" ? (
-            <img src="src/assets/school.svg" style={{ height: "50px" }} />
+            <img src="src/assets/images/school.svg" style={{ height: "50px" }} />
           ) : (
-            <img src="src/assets/university.svg" style={{ height: "50px" }} />
+            <img src="src/assets/images/university.svg" style={{ height: "50px" }} />
           )}
         </div>
         <p className="school">{data.school}</p>
         <span>
-          <img src="src/assets/calendar.svg" style={{ height: "16px" }} />
+          <img src="src/assets/images/calendar.svg" style={{ height: "16px" }} />
           <time style={{ color: "#BE8ABF" }}>{data.from}</time> -{" "}
           <time style={{ color: "#BE8ABF" }}>{data.to}</time>
         </span>
         <p className="location">
-          <img src="src/assets/location.svg" style={{ height: "20px" }} />
+          <img src="src/assets/images/location.svg" style={{ height: "20px" }} />
           {data.location}
         </p>
         <h6 style={{ color: "#FFE0AC" }}>
-          <img src="src/assets/graduation.svg" style={{ height: "20px" }} />
+          <img src="src/assets/images/graduation.svg" style={{ height: "20px" }} />
           {data.degree}
         </h6>
         <p style={{ color: "#FFAAA5" }}>Grade: {data.grade}</p>

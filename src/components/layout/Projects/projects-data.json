@@ -1,60 +1,72 @@
 [
   {
     "title": "Plant Disease Detection",
-    "image": "src/assets/project/plant-disease-detection.png",
+    "image": "src/assets/images/plant-disease-detection.png",
     "desc": "Final year project on Plant disease detection using Deep Learning.",
     "from": "October 2022",
     "to": "February 2023",
     "repo": "https://github.com/Subhadeep0506/plant-disease-detection",
     "tools": ["OpenCV", "Tensorflow", "Numpy", "Flask", "JQuery"],
     "languages": [
-      { "name": "Python", "icon": "src/assets/skills/python.svg" },
-      { "name": "JavaScript", "icon": "src/assets/skills/javascript.svg" },
-      { "name": "HTML", "icon": "src/assets/skills/html.svg" },
-      { "name": "CSS", "icon": "src/assets/skills/css.svg" }
+      { "name": "Python", "icon": "src/assets/images/python.svg" },
+      {
+        "name": "JavaScript",
+        "icon": "src/assets/images/javascript.svg"
+      },
+      { "name": "HTML", "icon": "src/assets/images/html.svg" },
+      { "name": "CSS", "icon": "src/assets/images/css.svg" }
     ]
   },
   {
     "title": "Peek-A-Geek",
-    "image": "src/assets/project/peek-a-geek.png",
+    "image": "src/assets/images/peek-a-geek.png",
     "desc": "Peek-A-Geek is a web-based platform for professionals, preciesely developers, to explore other developers' profile, their Github repositories and also communicate with them through posts. Our application is responsive, so you can open it in all kinds of devices.",
     "from": "March 2022",
     "to": "August 2022",
     "repo": "https://github.com/Subhadeep0506/Peek-A-Geek",
     "tools": ["React", "NodeJS", "Express", "MongoDB", "Bootstrap"],
     "languages": [
-      { "name": "JavaScript", "icon": "src/assets/skills/javascript.svg" },
-      { "name": "CSS", "icon": "src/assets/skills/css.svg" }
+      {
+        "name": "JavaScript",
+        "icon": "src/assets/images/javascript.svg"
+      },
+      { "name": "CSS", "icon": "src/assets/images/css.svg" }
     ]
   },
   {
     "title": "Flask E-Commerce REST API",
-    "image": "src/assets/project/flask-api.jpg",
+    "image": "src/assets/images/flask-api.jpg",
     "desc": "An ECommerce RESTful API, Using Flask, Flask SQLAlchemy, Marshmallow and other libraries.",
     "from": "January 2022",
     "to": "March 2022",
     "repo": "https://github.com/Subhadeep0506/ECommerce-Store-REST-API",
     "tools": ["Flask", "Flask-RESTful", "PostgreSQL", "Postman"],
-    "languages": [{ "name": "Python", "icon": "src/assets/skills/python.svg" }]
+    "languages": [
+      { "name": "Python", "icon": "src/assets/images/python.svg" }
+    ]
   },
   {
     "title": "Movie Recommendation System",
-    "image": "src/assets/project/movie-recommendation-system.jpg",
+    "image": "src/assets/images/movie-recommendation-system.jpg",
     "desc": "A data driven AI movie recommendation system application that leverages Machine Learning to recommend movies to users, based on their likes.",
     "from": "March 2022",
     "to": "April 2022",
     "repo": "https://github.com/Subhadeep0506/movie-recommendation-system",
     "tools": ["Scikit-Learn", "Pandas", "Flask", "Flask-RESTful"],
-    "languages": [{ "name": "Python", "icon": "src/assets/skills/python.svg" }]
+    "languages": [
+      { "name": "Python", "icon": "src/assets/images/python.svg" }
+    ]
   },
   {
     "title": "Flutter Test Application",
-    "image": "src/assets/project/test-application.png",
+    "image": "src/assets/images/test-application.png",
     "desc": "Timed test application using flutter framework.",
     "from": "January 2022",
     "to": "June 2022",
     "repo": "https://github.com/Subhadeep0506/test-application",
     "tools": ["Flutter"],
-    "languages": [{ "name": "Dart", "icon": "src/assets/skills/dart.svg" }]
+    "languages": [
+      { "name": "Dart", "icon": "src/assets/images/dart.svg" }
+    ]
   }
 ]

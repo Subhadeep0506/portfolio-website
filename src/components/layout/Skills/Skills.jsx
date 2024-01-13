@@ -10,22 +10,22 @@ function Skills() {
         gradient={true}
         gradientColor={"#3b3b3b9e"}
       >
-        <img src="src/assets/skills/python.svg" className="skill-icons" />
-        <img src="src/assets/skills/pytorch.svg" className="skill-icons" />
-        <img src="src/assets/skills/tensorflow.svg" className="skill-icons" />
-        <img src="src/assets/skills/flask.svg" className="skill-icons" />
-        <img src="src/assets/skills/fastapi.svg" className="skill-icons" />
-        <img src="src/assets/skills/html.svg" className="skill-icons" />
-        <img src="src/assets/skills/css.svg" className="skill-icons" />
-        <img src="src/assets/skills/javascript.svg" className="skill-icons" />
-        <img src="src/assets/skills/react.svg" className="skill-icons" />
-        <img src="src/assets/skills/git.svg" className="skill-icons" />
-        <img src="src/assets/skills/github.svg" className="skill-icons" />
-        <img src="src/assets/skills/gcp.svg" className="skill-icons" />
-        <img src="src/assets/skills/azure.svg" className="skill-icons" />
-        <img src="src/assets/skills/postgresql.svg" className="skill-icons" />
-        <img src="src/assets/skills/postman.svg" className="skill-icons" />
-        <img src="src/assets/skills/vscode.svg" className="skill-icons" />
+        <img src="src/assets/images/python.svg" className="skill-icons" />
+        <img src="src/assets/images/pytorch.svg" className="skill-icons" />
+        <img src="src/assets/images/tensorflow.svg" className="skill-icons" />
+        <img src="src/assets/images/flask.svg" className="skill-icons" />
+        <img src="src/assets/images/fastapi.svg" className="skill-icons" />
+        <img src="src/assets/images/html.svg" className="skill-icons" />
+        <img src="src/assets/images/css.svg" className="skill-icons" />
+        <img src="src/assets/images/javascript.svg" className="skill-icons" />
+        <img src="src/assets/images/react-skill.svg" className="skill-icons" />
+        <img src="src/assets/images/git.svg" className="skill-icons" />
+        <img src="src/assets/images/github-skill.svg" className="skill-icons" />
+        <img src="src/assets/images/gcp.svg" className="skill-icons" />
+        <img src="src/assets/images/azure.svg" className="skill-icons" />
+        <img src="src/assets/images/postgresql.svg" className="skill-icons" />
+        <img src="src/assets/images/postman.svg" className="skill-icons" />
+        <img src="src/assets/images/vscode.svg" className="skill-icons" />
       </Marquee>
     </div>
   );

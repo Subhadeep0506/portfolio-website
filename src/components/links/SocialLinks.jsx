@@ -8,7 +8,7 @@ function SocialLinks() {
           target="_blank"
           id="linkedin"
         >
-          <img src="src/assets/linkedin.svg" className="social-icon"></img>{" "}
+          <img src="src/assets/images/linkedin.svg" className="social-icon"></img>{" "}
         </a>
       </li>
       <li>
@@ -18,7 +18,7 @@ function SocialLinks() {
           target="_blank"
           id="github"
         >
-          <img src="src/assets/github.svg" className="social-icon"></img>{" "}
+          <img src="src/assets/images/github.svg" className="social-icon"></img>{" "}
         </a>
       </li>
       <li>
@@ -28,7 +28,7 @@ function SocialLinks() {
           target="_blank"
           id="twitter"
         >
-          <img src="src/assets/twitter.svg" className="social-icon"></img>{" "}
+          <img src="src/assets/images/twitter.svg" className="social-icon"></img>{" "}
         </a>
       </li>
       <li>
@@ -38,7 +38,7 @@ function SocialLinks() {
           target="_blank"
           id="instagram"
         >
-          <img src="src/assets/instagram.svg" className="social-icon"></img>{" "}
+          <img src="src/assets/images/instagram.svg" className="social-icon"></img>{" "}
         </a>
       </li>
     </ul>
