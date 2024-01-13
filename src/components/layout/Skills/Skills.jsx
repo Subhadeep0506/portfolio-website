@@ -1,5 +1,6 @@
 import Marquee from "react-fast-marquee";
-import "./Skills.css";
+import "src/components/layout/Skills/Skills.css";
+
 function Skills() {
   return (
     <div className="skills">

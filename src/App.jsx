@@ -1,11 +1,11 @@
 import "./App.css";
-import Education from "./components/layout/Education/Education";
-import Experience from "./components/layout/Experience/Experience";
-import Footer from "./components/layout/Footer/Footer";
-import Header from "./components/layout/Header/Header";
-import Profile from "./components/layout/Profile/Profile";
-import Projects from "./components/layout/Projects/Projects";
-import Skills from "./components/layout/Skills/Skills";
+import Education from "src/components/layout/Education/Education";
+import Experience from "src/components/layout/Experience/Experience";
+import Footer from "src/components/layout/Footer/Footer";
+import Header from "src/components/layout/Header/Header";
+import Profile from "src/components/layout/Profile/Profile";
+import Projects from "src/components/layout/Projects/Projects";
+import Skills from "src/components/layout/Skills/Skills";
 
 function App() {
   return (

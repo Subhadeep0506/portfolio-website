@@ -1,4 +1,4 @@
-import "./Profile.css";
+import "src/components/layout/Profile/Profile.css";
 import Tilt from "react-parallax-tilt";
 
 function Profile() {
@@ -28,9 +28,24 @@ function Profile() {
             </h1>
             <h1 style={{ color: "#FF9843" }}>Mandal</h1>
             <br />
-            <h2 style={{ color: "#A1EEBD" }}><img style={{height: "32px"}} src="src/assets/images/data-science.svg"/>Data Science</h2>
-            <h2 style={{ color: "#F6F7C4" }}><img style={{height: "32px"}} src="src/assets/images/ai.svg"/>AI/ML</h2>
-            <h2 style={{ color: "#F6D6D6" }}><img style={{height: "32px"}} src="src/assets/images/development.svg"/>Softwere Development</h2>
+            <h2 style={{ color: "#A1EEBD" }}>
+              <img
+                style={{ height: "32px" }}
+                src="src/assets/images/data-science.svg"
+              />
+              Data Science
+            </h2>
+            <h2 style={{ color: "#F6F7C4" }}>
+              <img style={{ height: "32px" }} src="src/assets/images/ai.svg" />
+              AI/ML
+            </h2>
+            <h2 style={{ color: "#F6D6D6" }}>
+              <img
+                style={{ height: "32px" }}
+                src="src/assets/images/development.svg"
+              />
+              Softwere Development
+            </h2>
             <br />
             <h3 style={{ color: "#FF8080" }}>
               <img src="src/assets/images/location.svg"></img> Bangalore, India

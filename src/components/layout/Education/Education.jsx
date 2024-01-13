@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-import "./Education.css";
+import "src/components/layout/Education/Education.css";
 
 const EducationTimelineItem = ({ data }) => {
   return (

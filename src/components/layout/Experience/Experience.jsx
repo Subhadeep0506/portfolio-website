@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-import "./Experience.css";
+import "src/components/layout/Experience/Experience.css";
 
 const ExperienceTimelineItem = ({ data }) => {
   return (
@@ -19,7 +19,10 @@ const ExperienceTimelineItem = ({ data }) => {
         </div>
         <p className="org">{data.org}</p>
         <p className="location">
-          <img src="src/assets/images/location.svg" style={{ height: "20px" }} />
+          <img
+            src="src/assets/images/location.svg"
+            style={{ height: "20px" }}
+          />
           {data.location}
         </p>
         <p className="description">Description</p>
@@ -29,7 +32,10 @@ const ExperienceTimelineItem = ({ data }) => {
           })}
         </ul>
         <span>
-          <img src="src/assets/images/calendar.svg" style={{ height: "16px" }} />
+          <img
+            src="src/assets/images/calendar.svg"
+            style={{ height: "16px" }}
+          />
           <time style={{ color: "#BE8ABF" }}>{data.from}</time> -{" "}
           <time style={{ color: "#BE8ABF" }}>{data.to}</time>
         </span>

@@ -7,6 +7,10 @@ export default defineConfig({
   esbuild: {
     loader: "jsx",
   },
+  build: {
+    outDir: "build",
+    assetsDir: "assets",
+  },
   resolve: {
     alias: {
       src: "/src",

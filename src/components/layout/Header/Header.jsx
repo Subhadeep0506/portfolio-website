@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import "./Header.css";
-import "../../../App.css";
+import "src/components/layout/Header/Header.css";
+import "src/App.css";
 
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -35,10 +35,17 @@ function Header({ currentPage }) {
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link href="/">
-                <img src="src/assets/images/home.svg" className="link-icon"></img> Home
+                <img
+                  src="src/assets/images/home.svg"
+                  className="link-icon"
+                ></img>{" "}
+                Home
               </Nav.Link>
               <Nav.Link href="#education">
-                <img src="src/assets/images/education.svg" className="link-icon"></img>{" "}
+                <img
+                  src="src/assets/images/education.svg"
+                  className="link-icon"
+                ></img>{" "}
                 Education
               </Nav.Link>
 
@@ -50,11 +57,17 @@ function Header({ currentPage }) {
                 Experience
               </Nav.Link>
               <Nav.Link>
-                <img src="src/assets/images/projects.svg" className="link-icon"></img>{" "}
+                <img
+                  src="src/assets/images/projects.svg"
+                  className="link-icon"
+                ></img>{" "}
                 Projects
               </Nav.Link>
               <Nav.Link>
-                <img src="src/assets/images/contact.svg" className="link-icon"></img>{" "}
+                <img
+                  src="src/assets/images/contact.svg"
+                  className="link-icon"
+                ></img>{" "}
                 Contact
               </Nav.Link>
               <Nav.Link className="resume">
