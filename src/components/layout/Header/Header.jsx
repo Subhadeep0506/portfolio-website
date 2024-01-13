@@ -57,7 +57,9 @@ function Header({ currentPage }) {
                 <img src="src/assets/contact.svg" className="link-icon"></img>{" "}
                 Contact
               </Nav.Link>
-              <button className="resume">Résumé</button>
+              <Nav.Link className="resume">
+                <a>Résumé</a>
+              </Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
