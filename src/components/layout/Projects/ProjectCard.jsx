@@ -11,7 +11,7 @@ const ProjectCard = ({ data }) => {
         <h2 className="project-title">{data.title}</h2>
         <p className="project-desc">{data.desc}</p>
         <span className="d-flex align-items-center">
-          <img src="src/assets/images/calendar.svg" style={{ height: "16px" }} />
+          <img src="calendar.svg" style={{ height: "16px" }} />
           <time style={{ color: "#BE8ABF" }}>{data.from}</time> -{" "}
           <time style={{ color: "#BE8ABF" }}>{data.to}</time>
         </span>

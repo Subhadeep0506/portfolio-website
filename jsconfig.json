@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "src/*": ["./src/*"],
-      "assets": ["./src/assets/*"],
-    }
+      "assets": ["./src/assets/images"],
+    },
+    "jsx": "react-jsx"
   }
 }
