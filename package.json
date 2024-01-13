@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
@@ -23,6 +23,7 @@
     "react-fast-marquee": "^1.6.2",
     "react-parallax-tilt": "^1.7.182",
     "react-proptypes": "^1.0.0",
+    "react-router-dom": "^6.21.2",
     "react-tooltip": "^5.25.0"
   },
   "devDependencies": {
